@@ -1,0 +1,47 @@
+.order-list-container {
+  padding-top: 8px;
+  width: 100%;
+}
+
+.add-chair-button {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  text-transform: none;
+  background: #F8F8F8;
+}
+
+.add-chair-text {
+  color: black;
+}
+
+.order-card {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  cursor: pointer;
+}
+
+.order-card.selected {
+  background: #2b9cff;
+  color: white;
+}
+
+.order-card.normal {
+  background: #E2F2FF;
+  ;
+  color: black;
+}
+
+
+.order-id {
+  font-size: 20px;
+}

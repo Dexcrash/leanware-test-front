@@ -1,0 +1,39 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.table-grid {
+  margin-top: 2px;
+}
+
+.table-card {
+  min-height: 200px;
+  background: #f8f8f8;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.card-content {
+  height: 100px;
+}
+
+.orders-grid {
+  margin-top: 2px;
+  height: 70vh;
+  overflow: auto;
+}
+
+.order-divider {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}

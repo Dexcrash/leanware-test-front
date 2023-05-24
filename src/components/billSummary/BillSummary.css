@@ -1,0 +1,24 @@
+.bill-summary-container {
+  height: 40vh;
+  overflow: auto;
+}
+
+.summary-card {
+  margin: 8px;
+  padding: 16px;
+}
+
+.summary-card .tip-buttons-card {
+  margin-top: 16px;
+  padding: 8px;
+  background: #f8f8f8;
+}
+
+.summary-card .tip-buttons-card .tip-buttons-container {
+  padding: 8px;
+}
+
+.summary-card .tip-buttons-card .tip-button {
+  width: 100%;
+  background: #2b9cff;
+}

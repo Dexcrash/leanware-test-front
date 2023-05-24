@@ -1,0 +1,31 @@
+.menu-list-container {
+  height: 35vh;
+  overflow-x: auto;
+}
+
+.menu-list-grid {
+  padding: 16px 0;
+  height: 40vh;
+  overflow: auto;
+}
+
+.back-button {
+  height: 150px;
+  width: 150px;
+  background-color: #e2f2ff;
+  border-radius: 17px;
+}
+
+.menu-card {
+  height: 150px;
+  width: 150px;
+  border-radius: 17px;
+}
+
+.menu-image {
+  width: 150px;
+}
+
+.menu-content {
+  padding-top: 0;
+}

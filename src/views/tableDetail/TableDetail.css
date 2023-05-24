@@ -1,0 +1,30 @@
+.table-detail-container {
+  display: 'flex'
+}
+
+.table-detail-grid {
+  height: '92vh';
+  overflow: 'auto';
+}
+
+.buttons-grid-list {
+  background: '#2b9cff';
+  height: '65px';
+}
+
+.button-grid {
+  display: 'flex';
+  flex-direction: 'column';
+  justify-content: 'center';
+  align-items: 'center';
+}
+
+.button-on-grids {
+background: '#E2F2FF';
+color: 'black';
+}
+
+.button-on-grids .Mui-disabled {
+  background: "#F8F8F8";
+  color: "#c0c0c0"
+}
