@@ -166,7 +166,7 @@ const TableDetail = () => {
           paid: formattedDate
         },
       });
-      navigate(`/tables`);
+      navigate(`/`);
     } catch (error) {
       console.error('Error adding order:', error);
     }

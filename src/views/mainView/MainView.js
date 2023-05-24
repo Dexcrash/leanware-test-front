@@ -17,7 +17,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers-pro/AdapterDayjs';
 import { DateRangePicker } from '@mui/x-date-pickers-pro/DateRangePicker';
 import { useQuery, gql } from '@apollo/client';
 
-import './MainView.css'; // Import CSS file
+import './MainView.css';
 
 const FETCH_ORDERS_QUERY = gql`
   query getOrdersInDateRange($startDate: String!, $endDate: String!) {
@@ -83,13 +83,13 @@ const MainView = () => {
   };
 
   useEffect(() => {
-    if (data && data.getOrdersInDateRange.orders.length > 0) {
+    if (data) {
       setOrders(data.getOrdersInDateRange.orders);
     }
   }, [data, value]);
 
   const handleClickOnCardTable = (number) => {
-    const tableId = number + 1; // Assuming the table IDs start from 1
+    const tableId = number + 1;
     navigate(`/tables/${tableId}/orders`);
   };
 
@@ -135,7 +135,7 @@ const MainView = () => {
             <div className="orders-history">
               <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DemoContainer components={['DateRangePicker']}>
-                  <DateRangePicker value={value} onChange={(newValue) => setValue(newValue)} />
+                  <DateRangePicker value={value} onChange={(newValue) => {setValue(newValue)}} />
                 </DemoContainer>
               </LocalizationProvider>
               <Grid container spacing={1} className="orders-grid">
